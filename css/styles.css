@@ -126,7 +126,6 @@ button {
 
 .hero_form_input {
   display: block;
-  margin-top: 7px;
   margin-left: auto;
   margin-right: auto;
   width: 265px;
@@ -139,6 +138,7 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
   @media screen and (min-width: 1440px) {
+    margin-top: 7px;
     margin-bottom: 0px;
   }
 }
