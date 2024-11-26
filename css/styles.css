@@ -110,7 +110,9 @@ button {
 }
 
 .hero_form {
-  min-width: 341px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   margin-top: 45px;
   padding: 38px 38px 43px 38px;
@@ -118,6 +120,7 @@ button {
   border-radius: 15px;
   @media screen and (min-width: 1440px) {
     display: flex;
+    max-width: 1180px;
     align-items: last baseline;
     gap: 21px;
     height: 161px;
@@ -242,6 +245,9 @@ button {
 }
 
 .services-list_item {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 15px;
   padding: 25px 20px;
   margin-top: 20px;
